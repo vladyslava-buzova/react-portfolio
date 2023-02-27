@@ -4,8 +4,6 @@ import { Navbar } from '../../components/Navbar/Navbar';
 import './Header.css';
 import { VscArrowDown } from 'react-icons/vsc';
 import { BiMouseAlt } from 'react-icons/bi';
-// import { social } from '../../data/data';
-// import { Social } from '../../components/Social/Social';
 import { social } from '../../data/data';
 
 
@@ -28,7 +26,7 @@ export const Header = () => {
                         href={item.url}
                         className={`contacts__icon hero__icon ${item.id}`}
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                       >
                         {item.img}
                     </a>

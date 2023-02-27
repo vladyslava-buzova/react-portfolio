@@ -18,10 +18,9 @@ export const Card = () => {
           <a 
             href={card.demo} 
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >  
             <img 
-              // src={backery}
               src={card.img}
               alt={card.id}
               className="card__img"

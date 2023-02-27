@@ -46,10 +46,16 @@ const Burger = () => {
                 <li
                   key={item.id}
                   class="nav-right__item"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // rel="noopener noreferrer"
                 >
-                  <a href={`#${item.id}`} class="nav-right__link">{item.name}</a>
+                  <a
+                    href={`#${item.id}`}
+                    class="nav-right__link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    {item.name}
+                  </a>
                 </li>
               ))}
             </ul>
