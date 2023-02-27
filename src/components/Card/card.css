@@ -1,0 +1,70 @@
+.card {
+  background-color: #FFFEFF;
+  box-shadow: 0px 9px 40px rgba(0, 0, 0, 0.07);
+  max-width: 560px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.card__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #363636;
+  font-weight: 400;
+}
+
+.card__text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.card__technologies {
+  color: rgba(54, 54, 54, 0.5803921569);
+  margin-bottom: 10px;
+}
+
+.card__link {
+  transition: color 0.5s ease;
+  color: #363636;
+  display: inline-block;
+  font-weight: 400;
+  margin-right: 10px;
+  border-radius: 15px;
+  padding: 7px 20px;
+  width: 100px;
+  border: 1px solid #363636;
+  transition: all 0.5s ease;
+}
+
+.card__link:hover {
+  color: #000000;
+  background-color: #363636;
+  color: #fff;
+}
+
+.demo-btn {
+  background-color: #363636;
+  color: white;
+  border: 1px solid #363636;
+}
+
+.demo-btn:hover {
+  background-color: #fff;
+  color: #363636;
+}

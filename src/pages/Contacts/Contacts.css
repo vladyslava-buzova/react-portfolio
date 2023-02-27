@@ -1,0 +1,14 @@
+.contactme-section {
+  background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);
+
+  color: white;
+  padding: 80px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.contactme__title {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
