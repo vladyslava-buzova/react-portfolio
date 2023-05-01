@@ -1,14 +1,6 @@
 import React from 'react';
-// import { cards } from '../../data/data';
-// import backery from '../../assets/images/Backery.png';
 import './card.css';
-// import Boss from '../../assets/images/Boss.png';
-// import eco from '../../assets/images/eco.png';
-// import game from '../../assets/images/game.png';
-// import todo from '../../assets/images/todo.png';
-// import data from './data.json'
-import pics from '../../pics.json';
-
+import { pics } from '../../pics';
 
 export const Card = () => {
   return (

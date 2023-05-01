@@ -50,7 +50,7 @@
 }
 
 .hero__right {
-  background: url(../../assets/images/photo-heroJPG.JPG) no-repeat left;
+  background: url(../../images/photo-heroJPG.JPG) no-repeat left;
   background-size: cover;
   width: 350px;
   max-height: 350px;
