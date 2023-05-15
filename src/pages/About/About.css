@@ -1,7 +1,9 @@
 .about {
   padding: 80px 0;
-  background-color: rgb(237, 237, 237);
-  color: #363636;
+  /* background-color: rgb(237, 237, 237); */
+  background-color: #eff0f2;
+  /* color: #363636; */
+  color: #231634;
 }
 
 .title-secondary {
@@ -11,20 +13,27 @@
 
 .about-span {
   display: inline-block;
-  color: #4ca5ff;
+  /* color: #4ca5ff; */
+  color: #934cd8;
   font-weight: 500;
 }
 
 .about__text {
   margin-bottom: 20px;
+  /* color:#231634; */
 }
+
+/* .about__title {
+  color: #231634;
+} */
 
 .material-symbols-outlined {
   width: 20px;
   height: 20px;
   margin-top: -5px;
   display: inline-block;
-  color: #4ca5ff;
+  /* color: #4ca5ff; */
+  color: #934cd8;
 }
 
 @media (max-width: 320px) {

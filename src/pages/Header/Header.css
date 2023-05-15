@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #363636;
+  /* color: #363636; */
+  color: #231634;
   padding-top: 9%;
 }
 
@@ -31,7 +32,8 @@
 }
 
 .hero-title {
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 50px;
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 130%;
@@ -85,11 +87,13 @@
 }
 
 .scroll-down:hover {
-  color: #4ca5ff;
+  /* color: #4ca5ff; */
+  color: #934cd8;
 }
 
 .scroll-down__link {
-  font-size: 12px;
+  /* font-size: 12px; */
+  font-size: 14px;
   margin-right: 5px;
 }
 

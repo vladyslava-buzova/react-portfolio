@@ -1,7 +1,8 @@
 :root {
   --color--light: rgb(237, 237, 237);
-  --color--dark: #363636;
-  --color--linear--blue: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);;
+  /* --color--dark: #363636; */
+  --color--dark-blue: #231634;
+  /* --color--linear--blue: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);; */
   --transition: all 0.5s ease;;
 }
 
@@ -11,8 +12,10 @@
 }
 
 .nav {
-  background-color: var(--color--light);
-  color: black;
+  /* background-color: var(--color--light); */
+  background-color: #eff0f2;
+  color: #231634;
+  font-size: 16px;
 }
 
 .nav-wrapp {
@@ -29,6 +32,7 @@
   transition: all 0.5s ease;
   border: 1px solid transparent;
   padding: 5px 10px;
+  color:  #231634;
 }
 
 .nav-right__link:hover {

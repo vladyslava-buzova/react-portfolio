@@ -1,14 +1,15 @@
 .portfolio-section {
   padding: 80px 0;
   color: #363636;
+  background-color: white;
 }
 
 .portfolio-wrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   padding-bottom: 50px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 

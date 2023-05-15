@@ -84,17 +84,36 @@ ul, li {
   display: inline-block;
   width: 100%;
   width: 150px;
+  width: 200px;
   padding: 12px 0;
   color: #fff;
-  background-color: #363636; 
-  font-weight: 300; 
-  font-size: 12px;
+  /* background-color: #363636;  */
+  background-color: #934cd8; 
+  /* font-weight: 300;  */
+  font-weight: 500; 
+  /* font-size: 12px; */
+  font-size: 16px;
 
   text-align: center;
   transition: all .5s ease-in-out;
   border: 1px solid transparent;
-  border-radius: 20px;
+  border-radius: 10px;
   text-transform: capitalize;
+
+  animation: 2s ease 0s infinite normal none running bounce;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .btn:hover {
