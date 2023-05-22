@@ -1,6 +1,7 @@
 .contactme-section {
   /* background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%); */
-  background-image: linear-gradient(90deg,#ca98fb,#fd8e72);
+  /* background-image: linear-gradient(90deg,#ca98fb,#fd8e72); */
+  background-image: linear-gradient(90deg,#9d8ef1,#fd8e72);
   margin: 30px;
   border-radius: 40px;
   color: #fff;

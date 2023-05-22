@@ -87,11 +87,9 @@ ul, li {
   width: 200px;
   padding: 12px 0;
   color: #fff;
-  /* background-color: #363636;  */
-  background-color: #934cd8; 
-  /* font-weight: 300;  */
+  background-color: #363636; 
+  background-color: #7B68EE; 
   font-weight: 500; 
-  /* font-size: 12px; */
   font-size: 16px;
 
   text-align: center;
@@ -100,10 +98,14 @@ ul, li {
   border-radius: 10px;
   text-transform: capitalize;
 
-  animation: 2s ease 0s infinite normal none running bounce;
-}
+  /* animation: 2s ease 0s infinite normal none running bounce; */
+} 
 
-@keyframes bounce {
+
+
+
+
+/* @keyframes bounce {
   0% {
     transform: scale(1);
   }
@@ -114,7 +116,7 @@ ul, li {
   100% {
     transform: scale(1);
   }
-}
+} */
 
 .btn:hover {
   color: #363636;

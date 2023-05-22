@@ -6,8 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* color: #363636; */
-  color: #231634;
+  color: #363636;
+  /* color: #231634; */
   padding-top: 9%;
 }
 
@@ -62,7 +62,21 @@
   border-color: rgb(20, 30, 61);
   margin-top: 30px;
   margin-bottom: 30px;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
+
+  animation: 2s ease 0s infinite normal none running float;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(-10px);
+  }
 }
 
 .hero__right:hover {
@@ -88,7 +102,7 @@
 
 .scroll-down:hover {
   /* color: #4ca5ff; */
-  color: #934cd8;
+  color: #7B68EE;
 }
 
 .scroll-down__link {
@@ -233,7 +247,8 @@
     font-size: 25px;
   }
   .nav-right__link:focus {
-    color: rgb(97, 183, 217) 52%;
+    /* color: rgb(97, 183, 217) 52%; */
+    color: #7B68EE;
   }
 
   .container.container-nav {

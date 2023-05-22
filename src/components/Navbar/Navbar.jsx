@@ -12,7 +12,7 @@ export const Navbar = () => {
     <nav className='nav'>
       <div className="container container-nav">
         <div className="nav-wrapp">
-          <a href="/" class="logo" id="logo">Vladyslava B<span class="logo-period period">.</span></a>
+          <a href="/" class="logo" id="logo"><span className="logo-letter">V</span>Lada<span className=" logo-period period">.</span></a>
 
           <ul class="nav-right">
             {data.map(item => (

@@ -2,8 +2,8 @@
   padding: 80px 0;
   /* background-color: rgb(237, 237, 237); */
   background-color: #eff0f2;
-  /* color: #363636; */
-  color: #231634;
+  color: #363636;
+  /* color: #231634; */
 }
 
 .title-secondary {
@@ -14,7 +14,7 @@
 .about-span {
   display: inline-block;
   /* color: #4ca5ff; */
-  color: #934cd8;
+  color: #7B68EE;
   font-weight: 500;
 }
 
