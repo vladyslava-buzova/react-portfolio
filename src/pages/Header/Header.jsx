@@ -16,7 +16,6 @@ export const Header = () => {
         <div className="hero">
             <div className="hero__left">
               <div className="contacts-hero">
-                {/* < Social/> */}
                 <ul className="contacts__list">
                   {social.map(item => (
                     <li
@@ -57,9 +56,7 @@ export const Header = () => {
             </div>
 
             <div className="right">
-              {/* <div className="circle"> </div> */}
               <div className="hero__right"></div>
-              {/* <div className="circle2"> </div> */}
             </div>
 
           </div>
