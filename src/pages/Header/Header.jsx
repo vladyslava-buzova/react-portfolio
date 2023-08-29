@@ -56,7 +56,12 @@ export const Header = () => {
               </div>
             </div>
 
-            <div className="hero__right"></div>
+            <div className="right">
+              {/* <div className="circle"> </div> */}
+              <div className="hero__right"></div>
+              {/* <div className="circle2"> </div> */}
+            </div>
+
           </div>
       </div>
     </header>

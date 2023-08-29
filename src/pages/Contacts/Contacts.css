@@ -20,3 +20,18 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+
+
+@media (max-width: 480px) {
+  .contactme__text, .email-span {
+    font-size: 16px;
+  }
+
+  .contactme-section {
+    margin: 10px;
+  }
+
+  .title-secondary {
+    font-size: 25px;
+  }
+}

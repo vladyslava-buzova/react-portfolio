@@ -27,8 +27,14 @@
 
 @media (max-width: 769px) {
   .card {
-    width: 330px;
+    width: 300px;
+    /* max-width: 300px; */
   }
+
+  /* .card {
+    width: 100%;
+  } */
+
 
   .card__img {
     margin-bottom: 20px;
@@ -45,7 +51,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .card {
     width: 100%;
   }

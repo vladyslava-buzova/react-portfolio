@@ -68,8 +68,10 @@
 }
 
 .scroll-down:hover {
-  color: rgb(97, 183, 217);
+  /* color: rgb(97, 183, 217); */
+  color: #7B68EE;
 }
+
 
 .scroll-down__link {
   font-size: 12px;

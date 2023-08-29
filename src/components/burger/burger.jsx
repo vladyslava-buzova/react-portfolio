@@ -17,6 +17,10 @@ const Burger = () => {
   const [isOpenedBurgerMenu, setIsOpenedBurgerMenu] = useState(false);
   const [isClosededBurgerMenu, setIsClosedBurgerMenu] = useState(false);
 
+  if (isClosededBurgerMenu) {
+    
+  }
+
   // useEffect (() => {
 
   // }, [isOpenedBurgerMenu,isClosededBurgerMenu ])
