@@ -4,7 +4,7 @@
   /* max-width: 560px; */
   max-width: 400px;
   padding-bottom: 20px;
-  border-radius: 40px;
+  border-radius: 20px;
   align-items: center;
   text-align: center;
   transition: all 0.5s ease;
@@ -67,7 +67,7 @@
   -o-object-fit: contain;
      object-fit: contain;
   margin-bottom: 30px;
-  border-radius: 40px;
+  border-radius: 20px;
   /* border-top-right-radius: 40px ;
   border-top-left-radius: 40px ; */
 }
