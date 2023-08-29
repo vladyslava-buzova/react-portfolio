@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.fed70672.css",
+    "main.css": "/react-portfolio/static/css/main.a5d1fcb9.css",
     "main.js": "/react-portfolio/static/js/main.ace75244.js",
     "static/media/Boss.png": "/react-portfolio/static/media/Boss.201c553cd70fe7033dbb.png",
     "static/media/eco.png": "/react-portfolio/static/media/eco.9a453b326c38cca2554d.png",
     "static/media/Backery.png": "/react-portfolio/static/media/Backery.c420d852c203d71bdeb8.png",
-    "static/media/header.jpeg": "/react-portfolio/static/media/header.ec812b064aa5253b4b6a.jpeg",
+    "static/media/header.jpeg": "/react-portfolio/static/media/header.96085d8fddcf72548ae4.jpeg",
     "static/media/todo.png": "/react-portfolio/static/media/todo.baddb86ff6e256ff9b17.png",
     "static/media/game.png": "/react-portfolio/static/media/game.cb618aa23e8270209e06.png",
     "index.html": "/react-portfolio/index.html",
-    "main.fed70672.css.map": "/react-portfolio/static/css/main.fed70672.css.map",
+    "main.a5d1fcb9.css.map": "/react-portfolio/static/css/main.a5d1fcb9.css.map",
     "main.ace75244.js.map": "/react-portfolio/static/js/main.ace75244.js.map"
   },
   "entrypoints": [
-    "static/css/main.fed70672.css",
+    "static/css/main.a5d1fcb9.css",
     "static/js/main.ace75244.js"
   ]
 }
